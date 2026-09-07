@@ -1,0 +1,122 @@
+{
+  "target": "desktop",
+  "renderer": {
+    "software": true,
+    "width": 1181,
+    "height": 738
+  },
+  "passed": 18,
+  "total": 18,
+  "tests": [
+    {
+      "name": "No horizontal menu overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "height": 900,
+        "bodyWidth": 1440,
+        "menuWidth": 1440,
+        "menuHeight": 900,
+        "menuClientHeight": 900,
+        "start": {
+          "x": 73.4375,
+          "y": 725.75,
+          "width": 441,
+          "height": 55.890625,
+          "top": 725.75,
+          "right": 514.4375,
+          "bottom": 781.640625,
+          "left": 73.4375
+        },
+        "touch": false
+      }
+    },
+    {
+      "name": "Start button can be reached",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "About dialog opens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Monsoon chooses rain and rally car",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Start enters countdown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Countdown reaches running",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Steering changes lane",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Pause freezes physics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Pause controls visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Camera can change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Resume returns to game",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finish displays result sheet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Result not blank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Garage returns to menu",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sunday drive offers finish-drive action",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sunday drive finishes as Explorer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No uncaught browser errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No runtime network requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

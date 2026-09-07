@@ -1,0 +1,154 @@
+{
+  "passed": 28,
+  "total": 28,
+  "tests": [
+    {
+      "name": "Closed course is 5.069 km and has six named sectors",
+      "passed": true
+    },
+    {
+      "name": "Every road frame is finite, normalized and orthogonal",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts a real run and emits GO",
+      "passed": true
+    },
+    {
+      "name": "Acceleration raises speed without exceeding the base maximum",
+      "passed": true
+    },
+    {
+      "name": "Right and left steering move the car in the correct directions",
+      "passed": true
+    },
+    {
+      "name": "Brake stops the car; it never reverses",
+      "passed": true
+    },
+    {
+      "name": "Nitro is consumed and increases achievable speed",
+      "passed": true
+    },
+    {
+      "name": "Sustained boost never exceeds the vehicle ceiling in either weather",
+      "passed": true
+    },
+    {
+      "name": "Releasing boost slows smoothly toward the normal speed ceiling",
+      "passed": true
+    },
+    {
+      "name": "Empty nitro has a recharge lock rather than flickering boost",
+      "passed": true
+    },
+    {
+      "name": "Drifting needs speed plus steering and regenerates nitro",
+      "passed": true
+    },
+    {
+      "name": "Horn moves traffic toward the shoulder and obeys cooldown",
+      "passed": true
+    },
+    {
+      "name": "Contacts deduct points once during the recovery cooldown",
+      "passed": true
+    },
+    {
+      "name": "Potholes cost 80 points",
+      "passed": true
+    },
+    {
+      "name": "Chai pickups award points and refill nitro exactly once",
+      "passed": true
+    },
+    {
+      "name": "Rickshaw pickup rewards have the promised 25% bonus",
+      "passed": true
+    },
+    {
+      "name": "Close clean overtakes score, without rewarding collisions",
+      "passed": true
+    },
+    {
+      "name": "Clean checkpoint adds 23 seconds and 500 points",
+      "passed": true
+    },
+    {
+      "name": "Pause freezes race time, movement and countdown",
+      "passed": true
+    },
+    {
+      "name": "Timeout produces an incomplete result, not a false finish",
+      "passed": true
+    },
+    {
+      "name": "Crossing the finish produces completion, rank and bonus",
+      "passed": true
+    },
+    {
+      "name": "Sunday drive loops indefinitely and resets lap pickups",
+      "passed": true
+    },
+    {
+      "name": "Monsoon has more traffic and a lower-grip speed ceiling",
+      "passed": true
+    },
+    {
+      "name": "Seeded restart reproduces traffic placement",
+      "passed": true
+    },
+    {
+      "name": "Missing and corrupt saved data are handled safely",
+      "passed": true
+    },
+    {
+      "name": "Storage save/load round-trips records and settings",
+      "passed": true
+    },
+    {
+      "name": "Full sunset race completes using only normal driving inputs",
+      "passed": true
+    },
+    {
+      "name": "Full wet-road race is completable with the rally car",
+      "passed": true
+    }
+  ],
+  "fullRuns": [
+    {
+      "mode": "rush",
+      "car": "gt",
+      "completed": true,
+      "score": 12588,
+      "time": 86.28333333332972,
+      "distance": 5068.762769056214,
+      "position": 1,
+      "collisions": 11,
+      "nearMisses": 4,
+      "pickups": 14,
+      "topSpeed": 277,
+      "drift": 0,
+      "bonus": 8218,
+      "date": "2026-09-07T16:55:10.130Z",
+      "medal": "SILVER"
+    },
+    {
+      "mode": "monsoon",
+      "car": "rally",
+      "completed": true,
+      "score": 12250,
+      "time": 98.58333333332902,
+      "distance": 5068.762769056214,
+      "position": 1,
+      "collisions": 17,
+      "nearMisses": 5,
+      "pickups": 14,
+      "topSpeed": 244,
+      "drift": 0,
+      "bonus": 8310,
+      "date": "2026-09-07T16:55:10.455Z",
+      "medal": "SILVER"
+    }
+  ]
+}

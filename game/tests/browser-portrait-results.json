@@ -1,0 +1,187 @@
+{
+  "target": "portrait",
+  "renderer": {
+    "software": true,
+    "width": 320,
+    "height": 692
+  },
+  "passed": 26,
+  "total": 26,
+  "tests": [
+    {
+      "name": "No horizontal menu overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "height": 844,
+        "bodyWidth": 390,
+        "menuWidth": 390,
+        "menuHeight": 844,
+        "menuClientHeight": 844,
+        "start": {
+          "x": 22,
+          "y": 658,
+          "width": 277,
+          "height": 55,
+          "top": 658,
+          "right": 299,
+          "bottom": 713,
+          "left": 22
+        },
+        "touch": true
+      }
+    },
+    {
+      "name": "Start button can be reached",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "About dialog opens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Monsoon chooses rain and rally car",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Start enters countdown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Countdown reaches running",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Touch right input registered",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Steering changes lane",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Pause freezes physics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Pause controls visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Camera can change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Resume returns to game",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Manual touch mode reveals GAS pedal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GAS pedal produces throttle input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Touch left on screen",
+      "passed": true,
+      "detail": {
+        "x": 12,
+        "y": 757,
+        "width": 57,
+        "height": 67
+      }
+    },
+    {
+      "name": "Touch right on screen",
+      "passed": true,
+      "detail": {
+        "x": 75,
+        "y": 757,
+        "width": 57,
+        "height": 67
+      }
+    },
+    {
+      "name": "Touch brake on screen",
+      "passed": true,
+      "detail": {
+        "x": 259,
+        "y": 775,
+        "width": 49,
+        "height": 49
+      }
+    },
+    {
+      "name": "Touch boost on screen",
+      "passed": true,
+      "detail": {
+        "x": 314,
+        "y": 757,
+        "width": 64,
+        "height": 67
+      }
+    },
+    {
+      "name": "Touch drift on screen",
+      "passed": true,
+      "detail": {
+        "x": 12,
+        "y": 723,
+        "width": 120,
+        "height": 27
+      }
+    },
+    {
+      "name": "Finish displays result sheet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Result not blank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Garage returns to menu",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sunday drive offers finish-drive action",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sunday drive finishes as Explorer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No uncaught browser errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No runtime network requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

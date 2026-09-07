@@ -1,0 +1,1 @@
+{"name":"thane-rush","version":"1.0.0","private":true,"description":"An original offline 3D arcade driving game inspired by Thane, Upvan Lake and Yeoor Hills.","scripts":{"build":"python3 build.py","start":"python3 -m http.server 8080","test":"node tests/simulation.test.js"},"license":"MIT"}
